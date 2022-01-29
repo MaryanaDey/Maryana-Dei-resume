@@ -15,94 +15,74 @@
 <body>
     <div class="main-container">
          <!--main-container-->
-         <div>
-             <aside>
-                 <img src="" alt="my-photo" />
+         <div class="wrapper">
+             <aside class="sidebar">
+                 <img class="img" src="" alt="my-photo" />
 
                  <!--contacts container-->
+                 <div class="contacts-container">
+                     <h3 class="contacts-title">Contacts</h3>
                  <div>
-                     <h3>Contacts</h3>
-                
-                 <span>C:</span>
-                 <a href="tel:+38 099 448 59 79">+38 099 448 59 79</a>
+                 <span class="contacts-link-type">C:</span>
+                 <a  class="contacts-link" href="tel:+38 099 448 59 79">+38 099 448 59 79</a>
                 </div>
                 <div>
-                    <span>E:</span>
-                    <a href="mailto:Dey.maryana1989@gmail.com">Dey.maryana1989@gmail.com</a>
+                    <span class="contacts-link-type">E:</span>
+                    <a  class="contacts-link" href="mailto:Dey.maryana1989@gmail.com">Dey.maryana1989@gmail.com</a>
                 </div>
+            </div>
 
                 <!--Tech skill container-->
-                <div>
-                    <h3>Tech Skills</h3>
+                <div class="tech-skill-conteiner">
+                    <h3 class="tech-skill-title">Tech Skills</h3>
                     <ul>
-                        <li>
-                            <span>HTML5/CSS3/SASS</span>
-                        </li>
-                        <li>
-                            <span>JavaScript</span>
-                        </li>
-                        <li>
-                            <span>Rest API</span>
-                        </li>
-                        <li>
-                            <span>GIT</span>
-                        </li>
-                        <li>
-                            <span>Parsel</span>
-                        </li>
+                        <li class="tech-skill-item"><span class="skill-item">HTML5/CSS3/SASS</span></li>
+                        <li class="tech-skill-item"><span class="skill-item">JavaScript</span></li>
+                        <li class="tech-skill-item"><span class="skill-item">Rest API</span></li>
+                        <li class="tech-skill-item"><span class="skill-item">GIT</span></li>
+                        <li class="tech-skill-item"><span class="skill-item">Parsel</span></li>
                     </ul>
                 </div>
 
                 <!--Soft skill container-->
-                <div>
-                    <h3>Soft Skills</h3>
+                <div class="soft-skill-container">
+                    <h3 class="soft-skill-title">Soft Skills</h3>
                     <ul>
-                        <li>
-                            <span>Scrammaster</span>
-                        </li>
-                        <li>
-                            <span>Scrammaster</span>
-                        </li>
-                        <li>
-                            <span>Scrammaster</span>
-                        </li>
+                        <li class="tech-skill-item"><span class="skill-item">purposefulness</span></li>
+                        <li class="tech-skill-item"><span class="skill-item">stress resistance</span></li>
+                        <li class="tech-skill-item"><span class="skill-item"></span> </li>
                     </ul>
+                </div>
 
-                    <div>
-                        <h3>Languages</h3>
+                    <div class="soft-skill-container">
+                        <h3 class="soft-skill-title">Languages</h3>
                         <ul>
-                            <li>
-                                <span>English</span>
-                            </li>
-                            <li>
-                                <span>Ukrainian</span>
-                            </li>
-                            <li>
-                                <span>Russian</span>
-                            </li>
+                            <li class="tech-skill-item"><span class="skill-item">English</span></li>
+                            <li class="tech-skill-item"><span class="skill-item">Ukrainian</span></li>
+                            <li class="tech-skill-item"><span class="skill-item">Russian</span></li>
                         </ul>
-                    </div>
                 </div>
              </aside>
 
              <!--about me container-->
-             <div>
-                 <div>
-                     <h2>Frond-End Developer</h2>
-                     <h1>Maryana Dei</h1>
-                     <p>Lorem ipsum, dolor sit amet consectetur 
-                         adipisicing elit. Reprehenderit unde accusantium 
-                         similique, quos quis deleniti rem possimus assumenda 
-                         quasi numquam!</p>
+             <div class="about-me-container">
+
+                 <div class="info-container">
+                     <h2 class="profession">Frond-End Developer</h2>
+                     <h1 class="name">Maryana Dei</h1>
+                     <p class="description"> I'm a Front-End developer looking for a full-time position in the
+                        interesting company that's aimed at making both everyday life and
+                        business easier, more productive and user-friendly. I have sound
+                        knowledge of HTML, CSS, JavaScript. I’m also studying React.js and Node.js.</p>
                  </div>
 
                  <!--Project container-->
-                 <div>
-                     <h3>Project</h3>
+                 <div class="projects-container">
+                     <h3 class="about-me-title">Project</h3>
                      <ol>
-                         <li>
-                             <a href="">Filmoteka</a>
-                             <span>..............................</span>
+                         <li class="projects-item">
+                             <a class="projects-link" href="">Filmoteka</a>
+                             <span class="dots">.................................</span>
 
                              <span>
                                 <b>[</b><span>HTML5, CSS3, SASS, JS,</span>
@@ -110,9 +90,9 @@
                              </span>
                          </li>
 
-                         <li >
-                            <a  href="https://aleksander-kovalenko.github.io/goit-js-hw-13-image-finder/">Image Finder</a>
-                            <span >.........................</span>
+                         <li  class="projects-item">
+                            <a class="projects-link" href="https://aleksander-kovalenko.github.io/goit-js-hw-13-image-finder/">Image Finder</a>
+                            <span class="dots">..........................</span>
                             <span
                               ><b>[</b><span >HTML5, CSS3, SASS, JS, </span
                               ><b></b></span><span >Handlebars, RestAPI</span
@@ -120,12 +100,30 @@
                             >
                           </li>
 
-                          <li >
-                            <a  href="https://aleksander-kovalenko.github.io/goit-js-hw-12-countries/">Countries Finder</a>
-                            <span >....................</span>
+                          <li  class="projects-item">
+                            <a class="projects-link" href="https://aleksander-kovalenko.github.io/goit-js-hw-12-countries/">Countries Finder</a>
+                            <span class="dots">....................</span>
                             <span
                               ><b>[</b><span >HTML5, CSS3, SASS, JS, </span
                               ><b></b></span><span>Handlebars, RestAPI</span
+                              ><b>]</b></span
+                            >
+                          </li> 
+                          <li class="projects-item">
+                            <a class="projects-link" href="https://aleksander-kovalenko.github.io/goit-js-hw-13-image-finder/">Image Finder</a>
+                            <span class="dots">..........................</span>
+                            <span
+                              ><b>[</b><span class="tech-name">HTML5, CSS3, SASS, JS, </span
+                              ><b></b></span><span class="tech-name">Handlebars, RestAPI</span
+                              ><b>]</b></span
+                            >
+                          </li>
+                           <li class="projects-item">
+                            <a class="projects-link" href="https://aleksander-kovalenko.github.io/goit-js-hw-12-countries/">Countries Finder</a>
+                            <span class="dots">....................</span>
+                            <span
+                              ><b>[</b><span class="tech-name">HTML5, CSS3, SASS, JS, </span
+                              ><b></b></span><span class="tech-name">Handlebars, RestAPI</span
                               ><b>]</b></span
                             >
                           </li> 
@@ -135,15 +133,28 @@
 
                  <!--work experience-->
                  <div>
-                     <h3>Work Experience</h3>
-                 </div>
+                     <h3 class="about-me-title">Work Experience</h3>
 
+               <!--company-->
+               <div>
+                   <h4 class="profession-title">Simply-Contact  </h4>
+                   <span class="profession-time"
+                   >March 2014 - June 2015
+                   <span class="profession-divider">|</span> Ukraine</span
+                 >
+
+               </div>
                  <!--Education-->
                  <div>
-                     <h3>Education</h3>
-                     <h4>A-Bank</h4>
-                     <h4>Simply-Contact</h4>
-                     <span>September 2016 | Ukraine</span>
+                    <h3 class="profession-title">Education</h3>
+                    <h4 class="education-place">
+                      Zhytomyr Military Institute named after S.P. Korolev
+                    </h4>
+                    <h4 class="profession-title">Сustomer service specialist</h4>
+                    <span class="profession-time"
+                      >February 2016 - june 2019 | Ukraine</span
+                    >
+                    </div>
                  </div>
              </div>
          </div>
