@@ -185,3 +185,11 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
+.contacts__icon {
+  display: inline;
+  margin-right: 10px;
+  fill: #0817eb;
+}
+.contacts-link:hover .contacts__icon {
+  fill: rgb(6, 233, 17);
+}
