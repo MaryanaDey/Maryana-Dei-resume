@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   font-family: Montserrat;
   background: #f5f7fa;
@@ -60,8 +63,10 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-
   margin-bottom: 20px;
+}
+.tech-name {
+  font-weight: normal;
 }
 .skill-item {
   color: #cfd1d4;
@@ -116,14 +121,19 @@ body {
   margin-bottom: 10px;
 }
 .projects-link {
-  color: #595959;
-  font-size: 14px;
-  font-weight: 400;
+  color: #ff6d0b;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 24px;
 }
 .projects-item {
   font-weight: 700;
   margin-left: 20px;
+  margin-bottom: 10px;
+}
+.project-code {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .dots {
   color: #bebebe;
@@ -136,11 +146,13 @@ body {
   margin-bottom: 10px;
 }
 .profession-title {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 900;
   line-height: 24px;
   margin-top: 10px;
-  margin-bottom: 15px;
+}
+.education {
+  margin-top: 30px;
 }
 .education-place,
 .education-goit {
@@ -157,17 +169,15 @@ body {
   line-height: 1.7;
 }
 .profession-time {
-  color: #a8a8a8;
+  color: #141414;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
 }
 .profession-title {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 .about-me-container {
   padding-left: 90px;
@@ -180,7 +190,8 @@ body {
   margin-bottom: 30px;
 }
 
-.profession-dutise-item {
+.profession-dutise-item,
+.progect-skill {
   color: #595959;
   font-size: 14px;
   font-weight: 400;
