@@ -135,6 +135,12 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.project-link-code {
+  color: rgb(66, 66, 66);
+}
+.project-link-code:hover {
+  color: blue;
+}
 .dots {
   color: #bebebe;
   font-weight: 100;
