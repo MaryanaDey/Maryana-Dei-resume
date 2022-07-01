@@ -3,14 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   font-family: Montserrat;
   background: #f5f7fa;
   padding: 40px 20px 40px 20px;
 }
+
 .wrapper {
   background: #fff;
   display: flex;
@@ -18,20 +21,24 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .sidebar {
   background: #1e2939;
   width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .img {
   width: 370px;
 }
+
 .contacts-container {
   margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .contacts-title {
   color: #fff;
   font-size: 22px;
@@ -39,6 +46,7 @@ body {
   line-height: 24px;
   margin-bottom: 10px;
 }
+
 .contacts-link-type {
   font-size: 14px;
   font-weight: 700;
@@ -46,6 +54,7 @@ body {
   color: #fff;
   margin-right: 10px;
 }
+
 .contacts-link {
   color: #cfd1d4;
   font-size: 14px;
@@ -58,6 +67,7 @@ body {
   margin-top: 40px;
   margin-right: 40px;
 }
+
 .tech-skill-title {
   color: #fff;
   font-size: 22px;
@@ -65,12 +75,15 @@ body {
   line-height: 24px;
   margin-bottom: 20px;
 }
+
 .tech-name {
   font-weight: normal;
 }
+
 .skill-item {
   color: #cfd1d4;
 }
+
 .tech-skill-item {
   color: #ff6b08;
   font-size: 14px;
@@ -78,11 +91,13 @@ body {
   line-height: 24px;
   margin-left: 15px;
 }
+
 .soft-skill-container {
   margin-left: 40px;
   margin-top: 40px;
   margin-right: 40px;
 }
+
 .soft-skill-title {
   font-size: 22px;
   font-weight: 700;
@@ -90,6 +105,7 @@ body {
   color: #fff;
   margin-bottom: 20px;
 }
+
 .soft-skill-title {
   font-size: 22px;
   font-weight: 700;
@@ -97,75 +113,92 @@ body {
   color: #fff;
   margin-bottom: 20px;
 }
+
 .info-container {
   margin-bottom: 65px;
 }
+
 .name {
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
 }
+
 .description {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   margin-top: 24;
 }
+
 .projects-container {
   margin-bottom: 55px;
 }
+
 .about-me-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
 }
+
 .projects-link {
   color: #ff6d0b;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
 }
+
 .projects-item {
   font-weight: 700;
   margin-left: 20px;
   margin-bottom: 10px;
 }
+
 .project-code {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .project-link-code {
   color: rgb(66, 66, 66);
 }
+
 .project-link-code:hover {
-  color: blue;
+  color: rgb(60, 255, 0);
 }
+
 .dots {
   color: #bebebe;
   font-weight: 100;
 }
+
 .about-me-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
 }
+
 .profession-title {
   font-size: 24px;
   font-weight: 900;
   line-height: 24px;
   margin-top: 10px;
 }
+
 .education {
   margin-top: 30px;
 }
+
 .education-place,
 .education-goit {
   color: #ff6d0b;
   margin-bottom: 15px;
   margin-top: 15px;
+  font-weight: 700;
 }
+
 .study-profession {
   margin-top: 0;
   margin-bottom: 15px;
@@ -174,23 +207,27 @@ body {
   font-weight: 700;
   line-height: 1.7;
 }
+
 .profession-time {
   color: #141414;
   font-size: 12px;
   font-weight: 600;
   line-height: 24px;
 }
+
 .profession-title {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
 }
+
 .about-me-container {
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 110px;
   padding-bottom: 110px;
 }
+
 .profesiion-dutise {
   margin-top: 15px;
   margin-bottom: 30px;
@@ -203,11 +240,13 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
+
 .contacts__icon {
   display: inline;
   margin-right: 10px;
-  fill: #0817eb;
+  fill: #ff6d0b;
 }
+
 .contacts-link:hover .contacts__icon {
   fill: rgb(6, 233, 17);
 }
